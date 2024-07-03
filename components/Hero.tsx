@@ -12,9 +12,9 @@ const RoughComp = (text : String, color : any, animationDelay : number, type = '
 
 const Hero = () => {
     return (
-        <div className="flex py-20 mx-auto max-w-5xl justify-between px-8 tracking-tight">
+        <div className="flex flex-col md:flex-row lg:flex-row py-20 mx-auto max-w-5xl justify-between px-8 tracking-tight min-[784px]:flex-col" id="about">
             <div className="space-y-4 mr-6">
-                <h1 className="text-4xl font-bold ">
+                <h1 className="text-4xl font-bold">
                     Hello! I'm Lovepreet, a
                     {RoughComp('developer', "#80adf6", 0)}
                     based in India.
@@ -26,12 +26,16 @@ const Hero = () => {
                 </p>
                 <p>
                     I am a Mechanical Eng. student fall in love with
-                    {RoughComp('Frontend-Development.', '#d095e8', 1000)}
-                    I have experience in developing innovative web applications using technologies such as Javascript, React.js and Next.js.
+                    <span className="block min-[780px]:inline lg:inline">
+                        {RoughComp('Frontend-Development.', '#d095e8', 1000)}
+                        I have experience in developing innovative web applications using technologies such as Javascript, React.js and Next.js.
+                    </span>
                 </p>
                 <p>
                     I'm currently looking for a new role as developer.
-                    {RoughComp('Hire me?', '#b61af3', 1500, 'circle')}
+                    <span className="block md:inline lg:inline">
+                        {RoughComp('Hire me?', '#b61af3', 1500, 'circle')}
+                    </span>
                 </p>
                 <div className=" space-x-3">
                     <Link href='https://www.linkedin.com/in/lovepreetsingh013/' target="_blank">
@@ -42,7 +46,7 @@ const Hero = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            <div className="mt-10">
                 <Image src={'/portfolioImg.jpg'} width={520} height={380} className="border rounded-lg shadow-2xl" alt="Hero-image" priority/>
             </div>
         </div>

@@ -4,19 +4,19 @@ import { Button } from "@/components/ui/button"
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 bg-background tracking-tight">
+    <header className="sticky top-0 z-50 bg-background tracking-tight border-b border-gray-200">
       <div className="flex h-16 items-center justify-between max-w-5xl mx-auto p-8">
         <Link href="#" prefetch={false}>
           <span className="text-md font-medium">LOVEPREET SINGH</span>
         </Link>
         <nav className="hidden gap-6 md:flex">
-          <Link href="#" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
+          <Link href="/#about" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
             About
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
+          <Link href="/#projects" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
             Projects
           </Link>
-          <Link href="#" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
+          <Link href="/#contact" className="text-sm font-medium hover:underline hover:underline-offset-4" prefetch={false}>
             Contact
           </Link>
         </nav>
@@ -30,21 +30,21 @@ export default function Navbar() {
           <SheetContent side="right">
             <div className="grid gap-4 p-4">
               <Link
-                href="#"
+                href="/#about"
                 className="flex items-center gap-2 text-md font-medium hover:underline hover:underline-offset-4"
                 prefetch={false}
               >
                 About
               </Link>
               <Link
-                href="#"
+                href="/#projects"
                 className="flex items-center gap-2 text-md font-medium hover:underline hover:underline-offset-4"
                 prefetch={false}
               >
                 Projects
               </Link>
               <Link
-                href="#"
+                href="/#contact"
                 className="flex items-center gap-2 text-md font-medium hover:underline hover:underline-offset-4"
                 prefetch={false}
               >
