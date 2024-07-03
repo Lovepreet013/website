@@ -12,7 +12,7 @@ const RoughComp = (text : String, color : any, animationDelay : number, type = '
 
 const Hero = () => {
     return (
-        <div className="flex flex-col md:flex-row lg:flex-row py-20 mx-auto max-w-5xl justify-between px-8 tracking-tight min-[784px]:flex-col" id="about">
+        <div className="flex flex-col md:flex-row lg:flex-row py-20 mx-auto max-w-5xl justify-between px-8 tracking-tight min-[784px]:flex-col items-center" id="about">
             <div className="space-y-4 mr-6">
                 <h1 className="text-4xl font-bold">
                     Hello! I'm Lovepreet, a
