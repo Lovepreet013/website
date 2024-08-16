@@ -37,7 +37,7 @@ const Hero = () => {
                     and delightful.
                 </p>
                 <p>
-                    I am a Mechanical Eng. student fall in love with
+                    I am a Mechanical Eng. student fell in love with
                     <span className={`${getWidth() ? 'inline-block' : 'inline'}`}>
                         {RoughComp('Frontend-Development.', '#d095e8', 1000)}
                         I have experience in developing innovative web applications using technologies such as Javascript, React.js and Next.js.
