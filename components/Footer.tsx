@@ -9,7 +9,7 @@ const Footer = () => {
                     <h1 className="text-3xl font-bold ">Get in touch</h1>
                     <p>Do you have a job opportunity or idea you'd like to discuss? Feel free to reach me at
                         <Link href='mailto:singhlovepreet1209@gmail.com'>
-                        <span className="font-bold bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">{` @singhlovepreet1209@gamil.com`}</span>
+                        <span className="font-bold bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">{` @singhlovepreet1209@gmail.com`}</span>
                         </Link>
                         . You can also find me on
                     <Link href='https://x.com/Dev_013_' target="_blank">
